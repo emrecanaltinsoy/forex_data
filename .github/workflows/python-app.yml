@@ -2,7 +2,7 @@ name: Daily forex update
 
 on:
   schedule:
-    - cron: "0 17 * * *"
+    - cron: "30 16 * * *"
 
 jobs:
   build:
