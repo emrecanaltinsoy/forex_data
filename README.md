@@ -1,0 +1,1 @@
+# Daily Forex Data Since 2011-01-01
