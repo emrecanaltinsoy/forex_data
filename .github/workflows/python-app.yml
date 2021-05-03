@@ -1,6 +1,3 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
 name: Daily forex update
 
 on:
@@ -39,3 +36,14 @@ jobs:
         git config --global user.email "action@github.com"
         git commit -am "Automated task"
         git push
+
+    - name: Upload datasets
+      uses: jaimevalero/push-kaggle-dataset@master # This is the action
+      env:
+        # Do not leak your credentials.
+        KAGGLE_USERNAME: ${{ secrets.KAGGLE_NAME }}
+        KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+
+      with:
+        id:  "altinsoyemrecan/daily-updated-forex-data-since-201111"
+        files:  forex_usd_data.csv
