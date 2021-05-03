@@ -34,3 +34,10 @@ jobs:
     - name: Run scrape_daily
       run: |
         python -m scrape_daily
+        
+    - name: Commit report
+      run: |
+        git config --global user.name ${{ secrets.NAME }}
+        git config --global user.email ${{ secrets.EMAIL }}
+        git commit -am "Automated task"
+        git push
