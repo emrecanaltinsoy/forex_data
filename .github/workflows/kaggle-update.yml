@@ -28,7 +28,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
     - name: Upload datasets
-      uses: jaimevalero/push-kaggle-dataset # This is the action
+      uses: jaimevalero/push-kaggle-dataset@master # This is the action
       env:
         # Do not leak your credentials.
         KAGGLE_USERNAME: ${{ secrets.KAGGLE_NAME }}
