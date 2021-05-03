@@ -29,4 +29,3 @@ df = pd.read_csv("forex_usd_data.csv")
 df = df.append(new_row, ignore_index=True)
 
 df.to_csv("forex_usd_data.csv",index=None)
-'add new data'
