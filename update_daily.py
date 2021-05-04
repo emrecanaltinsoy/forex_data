@@ -9,7 +9,7 @@ base_url = "https://www.x-rates.com/historical/?from=USD&amount=1&date"
 
 year = today.year
 month = today.month if today.month>9 else f"0{today.month}"
-day = today.day if today.day>9 else f"0{today.day}"
+day = today.day-1 if today.day-1>9 else f"0{today.day-1}"
 
 URL = f"{base_url}={year}-{month}-{day}"
 
