@@ -1,5 +1,9 @@
 # Daily Forex Data Since 2011-01-01
 
+The data is obtained using a python script that gathers information from HTML using BeautifulSoup. 
+
+The data will be updated daily automatically via GitHub actions. 
+
 ## The currencies in the data (per USD)
 - Argentine Peso
 - Australian Dollar
