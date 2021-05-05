@@ -2,7 +2,7 @@
 
 The data is obtained using a python script that gathers information from HTML using BeautifulSoup. 
 
-The data will be updated daily automatically via GitHub actions. 
+The currency data for each day will be added automatically after 12 AM UTC via GitHub actions.
 
 ## The currencies in the data (per USD)
 - Argentine Peso
