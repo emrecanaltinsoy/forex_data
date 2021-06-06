@@ -1,3 +1,5 @@
+<img src="https://github.com/emrecanaltinsoy/forex_data/blob/main/forex_image.jpeg" alt="forex_image" width="1000" height="400"/>
+
 # Daily Forex Data Since 2011-01-01
 
 The data is obtained using a python script that gathers information from HTML using BeautifulSoup. 
