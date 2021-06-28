@@ -1,4 +1,4 @@
-<img src="https://github.com/emrecanaltinsoy/forex_data/blob/main/forex_image.jpeg" alt="forex_image" width="1000" height="400"/>
+<img src="forex_image.jpeg" alt="forex_image" width="1000" height="400"/>
 
 # Daily Forex Data Since 2011-01-01
 
