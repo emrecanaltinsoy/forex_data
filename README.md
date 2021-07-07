@@ -1,11 +1,11 @@
 <img src="forex_image.jpeg" alt="forex_image" width="1000" height="400"/>
 
 # Daily Forex Data Since 2011-01-01
-
+ 
 The data is obtained using a python script that gathers information from HTML using BeautifulSoup. 
-
+ 
 The currency data for each day will be added automatically next day at 12 PM UTC via GitHub actions.
-
+ 
 ## The currencies in the data (per USD)
 - Argentine Peso
 - Australian Dollar
